@@ -32,7 +32,6 @@ export default function Upload() {
 
     const myRefname= useRef(null);
 
-    const {test} = useNotes();
 
   return (
     <div id='container'>

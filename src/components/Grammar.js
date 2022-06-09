@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
 import "./grammar.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import axios from "axios";
 import { useNotes } from '../context/noteContext';
 
 
@@ -26,7 +24,6 @@ export default function Grammar() {
     function handleClick() {
         if (data && response.length > 0) {
             response.forEach((x) => {
-                // console.log(x.bad);
                 if (data.includes(x.bad)) {
                     for (var i = 0; i < data.length; i++) {
                         if (data[i] === x.bad) {
@@ -52,7 +49,9 @@ export default function Grammar() {
             }
             check();
             setData(text.split(' '))
+            
         }
+        // eslint-disable-next-line
     }, [text, fileupload])
 
     const check = async () => {
