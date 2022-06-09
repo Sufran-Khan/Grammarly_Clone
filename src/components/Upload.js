@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import './upload.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNotes } from '../context/noteContext';
 
 
