@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import "./grammar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import axios from "axios";
+// import axios from "axios";
 import { useNotes } from '../context/noteContext';
 
 
@@ -57,9 +57,9 @@ export default function Grammar() {
 
     const check = async () => {
         try {
-            const response = await axios(`https://api.textgears.com/spelling?text=${text}&language=en-GB&whitelist=&dictionary_id=&key=UVgdh8Eniw0UaJQY`)
-            const responsearray = await response.data.response.errors;
-            // console.log(responsearray);
+            const response = await fetch(`https://api.textgears.com/spelling?text=${text}&language=en-GB&whitelist=&dictionary_id=&key=UVgdh8Eniw0UaJQY`)
+            const data = await response.json();
+            const responsearray = await data.response.errors;
             setResponse(responsearray);
         }
         catch (e) {
