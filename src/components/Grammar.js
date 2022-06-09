@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import "./grammar.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 // import axios from "axios";
 import { useNotes } from '../context/noteContext';
 
