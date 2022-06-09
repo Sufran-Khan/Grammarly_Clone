@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+body {
+  background-image: url("bg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +40,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  margin-top: 20px;
+}
+
+p{
+  background-color: white;
+  /* border: solid 2px black; */
+  border-radius: 8px;
+  margin-left: 110px;
+  margin-right: 110px;
+  
+}
+
+#disclaimer{
+  padding-top: 20px;
 }

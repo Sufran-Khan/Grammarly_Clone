@@ -1,0 +1,61 @@
+#container{
+    align-items: center;
+}
+
+#textbox1{
+    width: 430px;
+    height: 230px;
+    /* background-color: #30D5C8; */
+    /* color: white; */
+    box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+    font-family: "Merriweather", serif;
+    font-size: large;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#textbox2{
+    width: 430px;
+    height: 230px;
+    background-color: white;
+    box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+    position: relative;
+
+    font-family: "Merriweather", serif;
+    font-size: large;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#textdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+
+    margin-top: 80px;
+}
+
+#gtext{
+    position: relative;
+    margin-left: 5px;
+}
+
+#btn1{
+    background-color: rgb(17, 166, 131);
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+#datadiv{
+    display: flex;
+    justify-content: space-between;
+
+    width: 400px;
+    height: 200px;
+
+}
