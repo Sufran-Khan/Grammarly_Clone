@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Grammar from './components/Grammar.js';
 import Upload from './components/Upload.js';
